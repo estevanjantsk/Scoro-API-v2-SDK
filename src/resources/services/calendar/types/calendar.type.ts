@@ -10,7 +10,7 @@ export interface ICalendar extends IEvent {
   full_day_event: boolean
   status: 'busy' | 'free' | 'tentative' | 'outofoffice' | string
   status_name?: string // Available in view request
-  cal_user?: IUser[] // Users related with this event, populated only on view requests. For modify requests it takes an array of user IDs
+  cal_user?: IUser[] | number[] // Users related with this event, populated only on view requests. For modify requests it takes an array of user IDs
   resources?: IEventResource[] // Array of resources related to calendar event, populated only on view requests
   related_task_id?: number // Related Task ID, used when calendar event is related to a task
   guests?:
