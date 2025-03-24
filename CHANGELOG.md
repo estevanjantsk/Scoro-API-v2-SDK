@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/Scoro-Software/Scoro-API-v2-SDK/compare/v1.8.0...v1.9.0) (2025-03-24)
+
+
+### Features
+
+* add external repeating event id and uid to external data to group external events ([9e5f7eb](https://github.com/Scoro-Software/Scoro-API-v2-SDK/commit/9e5f7eb02b1f4c98fa083867387e6ee1e5c68a1a))
+
 # [1.8.0](https://github.com/Scoro-Software/Scoro-API-v2-SDK/compare/v1.7.0...v1.8.0) (2025-03-06)
 
 
